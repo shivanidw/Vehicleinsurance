@@ -4,8 +4,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 public class EnterVehicledata {
 
 	/**
@@ -138,10 +136,10 @@ public class EnterVehicledata {
    driver.findElement(By.id("Comments")).sendKeys("Vehicle insurance data register");
    driver.findElement(By.id("sendemail")).click();
    
-  Alert alert = driver.switchTo().alert();
+  /*Alert alert = driver.switchTo().alert();
   String alertmessage = driver.switchTo().alert().getText();
   System.out.println(alertmessage);
-  alert.accept();
+  alert.accept();*/
 	}
 
 }
