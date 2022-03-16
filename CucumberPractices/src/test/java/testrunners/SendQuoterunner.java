@@ -9,10 +9,10 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 
 @CucumberOptions(
-		features = {"src/test/java/Vehiclefeatures/Vehicledata.feature"},
+		features = {"src/test/java/Vehiclefeatures/SendQuote.feature"},
 		glue = {"Steps"},
 		plugin = {"pretty"}
 		)
-public class Vehicledatatestrunner {
+public class SendQuoterunner {
 
 }
